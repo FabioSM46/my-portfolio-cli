@@ -25,9 +25,6 @@ export const Navbar = () => {
 const NavbarIcon = ({ icon, text }) => (
   <div className="navbar-icon group">
     {icon}
-    <span className="relative inline-block bg-blue-500 text-white py-2 px-4 rounded-full text-sm">
-      <span className="relative z-10">{text}</span>
-      <span className="absolute w-3 h-3 bg-blue-500 transform rotate-45 -top-1 -left-2"></span>
-      </span>
+    <span className="navbar-tooltip group-hover:scale-100">{text}</span>
   </div>
 );

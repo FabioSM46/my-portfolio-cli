@@ -12,9 +12,22 @@
   }
 
   .navbar-tooltip {
-    @apply absolute w-auto p-2 m-2 min-w-max left-16
-    rounded-md shadow-md text-white bg-primary-900
-    text-xs font-bold transition-all duration-100 scale-0 origin-left
+    @apply absolute w-auto p-2 m-2 min-w-max left-16 ml-4
+      rounded-md shadow-md text-white bg-primary-900
+      text-xs font-bold transition-all duration-100 scale-0 origin-left;
+
+    /* Tail styles */
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: -8px;
+      transform: translateY(-50%);
+      width: 0;
+      height: 0;
+      border-top: 8px solid transparent;
+      border-bottom: 8px solid transparent;
+      border-right: 8px solid #111827;
+    }
   }
-  
 }
