@@ -1,16 +1,23 @@
-import "./Navbar.css";
 import { TiHome, TiInfo, TiHtml5, TiPlug } from "react-icons/ti";
-
+import { Link } from "react-router-dom";
 export const Navbar = () => {
   return (
     <div
       className="fixed top-0 left-0 h-screen 
-    w-16 m-0 flex flex-col bg-primary-900 text-white shadow-lg"
+    w-20 m-0 flex flex-col bg-primary-900 text-white shadow-lg"
     >
-      <NavbarIcon icon={<TiHome size={"28"} />} text="Home" />
-      <NavbarIcon icon={<TiInfo size={"28"} />} text="About" />
-      <NavbarIcon icon={<TiHtml5 size={"28"} />} text="Projects" />
-      <NavbarIcon icon={<TiPlug size={"28"} />} text="Contacts" />
+      <Link to={"/"}>
+        <NavbarIcon icon={<TiHome size={"32"} />} text="Home" />
+      </Link>
+      <Link to={"/about"}>
+        <NavbarIcon icon={<TiInfo size={"32"} />} text="About" />
+      </Link>
+      <Link to={"/projects"}>
+        <NavbarIcon icon={<TiHtml5 size={"32"} />} text="Projects" />
+      </Link>
+      <Link to={"/contacts"}>
+        <NavbarIcon icon={<TiPlug size={"32"} />} text="Contacts" />
+      </Link>
     </div>
   );
 };
@@ -18,7 +25,9 @@ export const Navbar = () => {
 const NavbarIcon = ({ icon, text }) => (
   <div className="navbar-icon group">
     {icon}
-
-    <span className="navbar-tooltip group-hover:scale-100">{text}</span>
+    <span className="relative inline-block bg-blue-500 text-white py-2 px-4 rounded-full text-sm">
+      <span className="relative z-10">{text}</span>
+      <span className="absolute w-3 h-3 bg-blue-500 transform rotate-45 -top-1 -left-2"></span>
+      </span>
   </div>
 );
