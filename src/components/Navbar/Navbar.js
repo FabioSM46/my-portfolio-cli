@@ -3,10 +3,7 @@ import { Link } from "react-router-dom";
 export const Navbar = () => {
   return (
     <div
-      className="fixed inset-y-0 left-0 h-full w-20 
-      flex flex-col justify-center items-center 
-      bg-primary-900 text-white shadow-xl 
-      space-y-4 sm:space-y-6 md:space-y-8 lg:space-y-10"
+      className="navbar-bar"
     >
       <Link to={"/"}>
         <NavbarIcon icon={<TiHome size={"32"} />} text="Home" />
