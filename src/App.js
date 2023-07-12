@@ -8,7 +8,6 @@ import { TorchEffect } from "./components/TorchEffect/TorchEffect";
 function App() {
   return (
     <div className="App">
-      <TorchEffect />
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />

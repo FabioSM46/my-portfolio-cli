@@ -1,9 +1,9 @@
-:root {
+/* :root {
   cursor: none;
   --cursorX: 50vw;
   --cursorY: 50vh;
 }
-
+ */
 :root:before {
   content: "";
   display: block;

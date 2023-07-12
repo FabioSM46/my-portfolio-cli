@@ -1,0 +1,19 @@
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+.animate-zoom {
+  animation: zoom 2s forwards;
+}
+
+.BrandQuote {
+  width: 40%;
+  text-align: center;
+  text-wrap: balance;
+}

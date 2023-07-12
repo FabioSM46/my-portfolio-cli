@@ -1,0 +1,10 @@
+.glitchSection {
+  width: 100%;
+  min-height: 50vh;
+  justify-content: center;
+  align-items: center;
+}
+.textToGlitch1,
+.textToGlitch2 {
+  text-transform: Uppercase;
+}
