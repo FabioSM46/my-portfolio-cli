@@ -13,7 +13,7 @@ export const BrandQuote = () => {
       >
         <Typewriter
           options={{
-            delay: 50,
+            delay: 80,
           }}
           onInit={(typewriter) => {
             typewriter
