@@ -16,7 +16,7 @@
   justify-content: center;
   align-items: center;
 }
-.textToGlitch {
+.textToGlitch1, .textToGlitch2 {
   text-align: center;
   text-transform: Uppercase;
 }
