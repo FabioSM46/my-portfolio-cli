@@ -2,7 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  font-family: "Exo 2", sans-serif;
+}
+
 @layer components {
+  html {
+    @apply bg-primary-900;
+  }
   .navbar-icon {
     @apply relative flex items-center justify-center
     h-14 w-14 mt-2 mx-auto shadow-lg bg-primary-800
@@ -13,7 +20,7 @@
 
   .navbar-tooltip {
     @apply absolute w-auto p-2 m-2 min-w-max left-16 ml-4
-      rounded-md shadow-md text-white bg-primary-900
+      rounded-2xl shadow-md text-white bg-primary-700
       text-xs font-bold transition-all duration-100 scale-0 origin-left;
 
     /* Tail styles */
@@ -21,13 +28,15 @@
       content: "";
       position: absolute;
       top: 50%;
-      left: -8px;
+      left: -6px;
       transform: translateY(-50%);
       width: 0;
       height: 0;
       border-top: 8px solid transparent;
       border-bottom: 8px solid transparent;
-      border-right: 8px solid #111827;
+      border-right: 8px solid #374151;
     }
   }
 }
+
+

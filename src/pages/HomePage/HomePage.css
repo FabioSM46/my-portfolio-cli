@@ -1,0 +1,22 @@
+.HomePage {
+  margin-left: 5rem;
+}
+.glitchSection {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.textToGlitch {
+  text-align: center;
+  text-transform: Uppercase;
+}
