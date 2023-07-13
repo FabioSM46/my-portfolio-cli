@@ -1,4 +1,4 @@
-.aboutSection {
+.Reveal {
   font-size: 1.3rem;
   width: 70vw;
   justify-content: center;
@@ -8,9 +8,12 @@
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 6rem;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 5rem;
+}
+p {
+  font: 3rem;
 }

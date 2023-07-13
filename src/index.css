@@ -15,7 +15,12 @@ body {
   html {
     @apply bg-primary-900;
   }
-
+  .HomePage {
+    @apply mt-5% my-5% ml-5rem flex flex-col justify-center items-center;
+  }
+  .AboutPage {
+    @apply mt-5% my-5% ml-5rem;
+  }
   .navbar-bar {
     @apply fixed inset-y-0 left-0 h-full w-20 
     flex flex-col justify-center items-center 
