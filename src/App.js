@@ -3,11 +3,10 @@ import { Routes, Route } from "react-router-dom";
 import { Navbar } from "./components/Navbar/Navbar";
 import { HomePage } from "./pages/HomePage/HomePage";
 import { AboutPage } from "./pages/AboutPage/AboutPage";
-import { TorchEffect } from "./components/TorchEffect/TorchEffect";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App font-ubuntu-mono">
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />

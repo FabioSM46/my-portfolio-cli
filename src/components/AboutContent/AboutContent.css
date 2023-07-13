@@ -1,0 +1,8 @@
+.aboutSection {
+  font-size: 1.3rem;
+  width: 70vw;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-wrap: balance;
+}

@@ -5,10 +5,11 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   darkMode: "class",
   theme: {
-    fontFamily: {
-      "exo-2": ["Exo 2", "sans-serif"],
-    },
     extend: {
+      fontFamily: {
+        "ubuntu-mono": ["Ubuntu Mono", "monospace"],
+        caveat: ["Caveat", "script"],
+      },
       colors: {
         primary: colors.gray,
       },

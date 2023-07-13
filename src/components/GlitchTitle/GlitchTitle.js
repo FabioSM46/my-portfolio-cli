@@ -39,7 +39,7 @@ export const GlitchTitle = () => {
   };
 
   return (
-    <div className="GlitchTitle">
+    <div className="GlitchTitle  font-ubuntu-mono">
       <section className="glitchSection flex flex-col">
         <p
           className="textToGlitch1 text-teal-700 lg:text-9xl md:text-8xl sm:text-7xl text-4xl"

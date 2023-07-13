@@ -5,9 +5,9 @@ export const BrandQuote = () => {
   const [isZoomed, setIsZoomed] = useState(false);
 
   return (
-    <div className="BrandQuote ">
+    <div className="BrandQuote font-caveat">
       <section
-        className={`text-lg mt-4 ${
+        className={`text-lg mt-24 ${
           isZoomed ? "animate-zoom" : ""
         } text-primary-300`}
       >

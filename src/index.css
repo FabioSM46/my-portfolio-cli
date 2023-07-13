@@ -2,14 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  font-family: "Exo 2", sans-serif;
+@import url("https://fonts.googleapis.com/css?family=Caveat");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu%20Mono");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @layer components {
   html {
     @apply bg-primary-900;
   }
+
   .navbar-bar {
     @apply fixed inset-y-0 left-0 h-full w-20 
     flex flex-col justify-center items-center 

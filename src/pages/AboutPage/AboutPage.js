@@ -1,8 +1,9 @@
+import { AboutContent } from "../../components/AboutContent/AboutContent";
+import "./AboutPage.css";
 export const AboutPage = () => {
   return (
-    <div>
-      <h1>About page</h1>
+    <div className="AboutPage font-ubuntu-mono text-primary-300">
+      <AboutContent />
     </div>
   );
 };
-
