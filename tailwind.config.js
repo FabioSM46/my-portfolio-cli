@@ -6,9 +6,13 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      width: {
+        "70vw": "70vw",
+      },
       margin: {
         "5%": "5%",
         "5rem": "5rem",
+        "100vh": "100vh",
       },
       fontFamily: {
         "ubuntu-mono": ["Ubuntu Mono", "monospace"],

@@ -1,10 +1,13 @@
+import "./AboutPage.css";
 import { Reveal } from "./../../components/Reveal/Reveal";
+
 export const AboutPage = () => {
   const hOneStyle = "lg:text-8xl md:text-7xl sm:text-6xl text-4xl";
   const pStyle = "lg:text-4xl md:text-3xl sm:text-2xl text-xl";
-  const sectionStyle = "m-0 p-0";
+  const sectionStyle = "snapSection";
+
   return (
-    <div className="AboutPage font-ubuntu-mono text-primary-300 mt-56">
+    <div className="AboutPage container font-ubuntu-mono text-primary-300 mt-56">
       <Reveal>
         <section className={sectionStyle}>
           <h1 className={hOneStyle}>section one</h1>
@@ -18,31 +21,6 @@ export const AboutPage = () => {
           </p>
         </section>
       </Reveal>
-
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
 
       <Reveal>
         <section className={sectionStyle}>
@@ -58,25 +36,6 @@ export const AboutPage = () => {
         </section>
       </Reveal>
 
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-
       <Reveal>
         <section className={sectionStyle}>
           <h1 className={hOneStyle}>section three</h1>
@@ -90,25 +49,6 @@ export const AboutPage = () => {
           </p>
         </section>
       </Reveal>
-
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
 
       <Reveal>
         <section className={sectionStyle}>
@@ -124,31 +64,6 @@ export const AboutPage = () => {
         </section>
       </Reveal>
 
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-
       <Reveal>
         <section className={sectionStyle}>
           <h1 className={hOneStyle}>section five</h1>
@@ -163,31 +78,6 @@ export const AboutPage = () => {
         </section>
       </Reveal>
 
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-
       <Reveal>
         <section className={sectionStyle}>
           <h1 className={hOneStyle}>section six</h1>
@@ -198,31 +88,6 @@ export const AboutPage = () => {
           </p>
         </section>
       </Reveal>
-
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
 
       <Reveal>
         <section className={sectionStyle}>

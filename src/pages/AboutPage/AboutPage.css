@@ -1,0 +1,16 @@
+.AboutPage {
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-padding-top: 10%;
+}
+
+.Reveal {
+  height: 100vh;
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+}
+
+.AboutPage::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
