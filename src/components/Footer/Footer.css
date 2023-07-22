@@ -1,0 +1,21 @@
+/* orientation style*/
+@media only screen and (orientation: landscape) {
+  .footer-copyright,
+  .footer-credits {
+    display: block;
+  }
+}
+
+@media only screen and (orientation: portrait) {
+  .footer-copyright,
+  .footer-credits {
+    display: none;
+  }
+}
+/* max-width style*/
+@media (max-width: 964px) {
+  .footer-copyright,
+  .footer-credits {
+    display: none;
+  }
+}
