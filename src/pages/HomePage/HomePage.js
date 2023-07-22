@@ -32,7 +32,6 @@ export const HomePage = () => {
               text="Welcome, I Am Fabio. Your Web Dev."
               className="py-2"
             />
-
             <p className="font-perm-marker py-2 xl:text-xl lg:text-lg md:text-md sm:text-base text-base text-primary-800 dark:text-primary-200 text-center break-normal max-w-2xl">
               Fueled by a strong passion for technology, I specialize in
               transforming complex ideas into smooth and user-friendly websites
